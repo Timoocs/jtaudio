@@ -6,13 +6,15 @@
     to{opacity:1; top: 0px;}
 }
 .contact-me{
-    color:  var(--red);
+    color:  white;
     font-size: clamp(30px, 10vw, 100px);
     text-shadow: 4px 4px black;
     margin: 200px 0 100px;
     padding: 0;
     position: relative;
+    width: fit-content;
     left: 10%;
+    
 
 }
 main{
@@ -23,21 +25,29 @@ main{
 }
 article{
     text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5%;
+    padding: 5%;
 }
 .nameofcontact{
-    color: var(--red);
+    color: white;
 }
 .cont-line{
     font-size: clamp(12px, 2vw, 20px);
 }
 .contact-sect{
-    min-height: 100vh;
+    padding-bottom: 20vh;
     width: 100vw;
+    padding-bottom: 100px;
 }
 
 .articleofcontact{
-    display: inline-block;
+    background: rgba(255, 0, 0, 0.437);
+    border-radius: 0px 20px 20px 20px;
+    padding: 20px;
 }
+
 
 .showIn:nth-child(1){
     animation-name: showIn;
@@ -86,13 +96,34 @@ article{
 .showIn:nth-child(12){
     animation-name: showIn;
     animation-duration: 1.60s;
+    color: var(--red);
 }
 .showIn:nth-child(13){
     animation-name: showIn;
     animation-duration: 1.70s;
+    color: var(--red);
 }
 .showIn:nth-child(14){
     animation-name: showIn;
     animation-duration: 1.80s;
+    color: var(--red);
 }
 
+@media screen and (max-width:800px) {
+    article{
+        grid-template-columns: auto auto;
+        gap: 50px;
+    }
+}
+@media screen and (max-width:500px) {
+    article{
+        grid-template-columns: auto;
+
+    }
+    .cont-line{
+        font-size: clamp(17px, 5vw, 23px);
+    }
+    .nameofcontact{
+        font-size: clamp(25px, 10vw, 35px)
+    }
+}

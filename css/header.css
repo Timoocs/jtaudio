@@ -19,7 +19,7 @@
     align-items: center;
     height: clamp(80px, 7vw, 130px);
     padding: 0 5vw;
-    z-index: 98;
+    z-index: 4;
     width: 100vw;
     box-sizing: border-box;
     position: fixed;
@@ -49,7 +49,7 @@
     align-items: center;
     margin: 0;
     padding: 20px;
-    gap: 100px;
+    gap: 80px;
 }
 
 .menu-item{
@@ -57,6 +57,10 @@
     font-size: clamp(5px, 3vw, 30px);
     font-family: 'Inconsolata', monospace;
     font-weight: 500;
+}
+.menu-item a:hover{
+    color: var(--red);
+    transition: 0.4s;
 }
 
 a{

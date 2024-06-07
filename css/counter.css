@@ -38,7 +38,7 @@ gap: clamp(20px, 5vw, 100px);
 position: relative;
 justify-content: center;
 align-items: center;
-width: 100%;
+width: clamp(220px, 80%, 400px);
 background: rgba(33, 33, 33, 0.462);
 border: 20px solid var(--red);
 border-radius: 20%;
@@ -70,7 +70,7 @@ height: clamp(200px, 40vh, 500px);
 
 .counter-art{
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     
 }
 }

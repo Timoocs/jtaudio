@@ -34,8 +34,7 @@
                     <div class="about bt2">
                     Od prvého kontaktu až po zbalenie techniky sa klient stretáva s príjemnou komunikáciou, skúsenosťou, flexibilitou a špičkovým prevedením akcie.
                     Práve vďaka spokojným klientom sa neustále posúvame vpred a naše služby sa každým jedným podujatím zlepšujú. Ak potrebujete riešenie v oblasti 
-                    profesionálnej zvukovej, svetelnej a video techniky, ozvučiť, osvetliť alebo projekciou vyzdvihnúť Váš event, ste na správnej adrese. <b> JT Audio </b>
-                    Vám ponúka zvukové, svetelné a video projekčné riešenia podľa vašich predstáv a potrieb.
+                    ozvučenia alebo osvetlenia ste na správnej adrese.   
                 </div>
                 
                 
@@ -43,7 +42,7 @@
 
                 
 
-            <img src="./img/why.jpg">
+            <img src="./img/onasimg.jpg">
             
             </div>
             </div>
