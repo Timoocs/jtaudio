@@ -1,0 +1,76 @@
+@keyframes slideUp {
+    from {top: 300px; opacity: 0;}
+    to {top: 0px; opacity: 1;}
+
+}
+:root{
+    --red: #CD1111;
+}
+.counter-art{
+    margin-top: clamp(100px, 20vh, 300px);
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+max-width: 100vw;
+gap: clamp(20px, 5vw, 100px);
+
+
+
+}
+.counter-art .activeSlide:nth-child(2){
+    animation-name: slideUp;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+.counter-art .activeSlide:nth-child(3){
+    animation-name: slideUp;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.counter-art .activeSlide:nth-child(4){
+    animation-name: slideUp;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+.container-counter{
+    display:flex;
+position: relative;
+justify-content: center;
+align-items: center;
+width: 100%;
+background: rgba(33, 33, 33, 0.462);
+border: 20px solid var(--red);
+border-radius: 20%;
+height: clamp(200px, 40vh, 500px);
+}
+.counter{
+    color: white;
+    font-size: clamp(20px, 4vw, 60px);
+    margin: 0;
+}
+.counter-info{
+    white-space: normal;
+    margin: 0;
+    font-size: clamp(15px, 2vw, 25px);
+    padding-right:clamp(5px, 2vw, 20px);
+    padding-left:clamp(5px, 2vw, 20px);
+    text-align: center;
+    color: var(--red);
+}
+   
+.counter-div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+}
+@media screen and (max-width:700px) {
+
+.counter-art{
+    flex-direction: column;
+    justify-content: center;
+    
+}
+}

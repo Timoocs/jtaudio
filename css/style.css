@@ -1,0 +1,228 @@
+@keyframes slideIn{
+    from {left: -600px; opacity: 0;}
+    to {left: 0px; opacity: 1;}
+}
+
+@keyframes slideUp {
+    from {top: 300px; opacity: 0;}
+    to {top: 0px; opacity: 1;}
+
+}
+
+:root{
+    --red: #CD1111;
+}
+header{
+display: flex;
+flex-direction: row;
+z-index: 1;
+height: 100vh;
+max-width: 100vw; 
+font-family: 'Ubuntu', sans-serif;
+align-items: center;
+box-sizing: border-box;
+background-color: black;
+background-image: url(../img/MATO2839.JPG);
+background-size: cover;
+background-attachment: fixed;
+}
+
+.header-sect1 h1{
+    margin: 0;
+    padding: 0;
+    font-size: clamp(20px, 6vw, 80px);
+    box-sizing: border-box;
+    position: relative;
+    color: white;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0), -2px -2px 4px var(--red);
+
+}
+.header-sect1 h1:nth-child(1){
+    animation-name: slideIn;
+    animation-duration: 1s;
+}
+.header-sect1 h1:nth-child(2){
+    animation-name: slideIn;
+    animation-duration: 1.5s;
+}
+.header-sect1 h1:nth-child(3){
+    animation-name: slideIn;
+    animation-duration: 1.75s;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /*background: rgb(33, 33, 33); 
+    /*background-image: url(../img/why.JPG);*/
+    background-image: url(../img/MATO2878-Enhanced-NR.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+ 
+    
+
+.part{
+   position: relative;
+   z-index: 2;
+   
+
+
+}
+
+main{
+    border-top: 2px solid var(--red);
+    padding: 10vw;
+    font-family: 'Inconsolata', monospace;
+    background: rgba(0, 0, 0, 0.55);
+}
+.why-jt{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inconsolata', monospace;
+    border-spacing: 1px solid white;
+    gap: 10px;
+}
+.line{
+    background: white;
+
+    width: 100%;
+    height: 2px;
+    
+}
+h2{
+    margin: 0;
+    font-size: clamp(30px, 4vw, 40px);
+    color: white;
+    
+}
+.why-jt:nth-child(1){
+    max-width: 70ch;
+    margin-top: 3vh;
+    font-size: clamp(15px, 2vw, 20px);
+}
+.why-jt .about{
+    max-width: 70ch;
+    font-size: clamp(15px, 2vw, 20px);
+    font-family: 'Ubuntu', sans-serif;
+}
+.whole-art img{
+    /*width: clamp(250px, 40vw, 700px);*/
+    width: 50%;
+    box-sizing: border-box;
+    align-self: center;
+    vertical-align: baseline;
+    border: 2px solid white;
+    border-radius: 70px 30px 70px 30px;
+}
+.whole-art{
+    display: flex;
+    flex-direction: row;
+    gap: clamp(40px, 3vw, 60px);
+}
+.header-sect1{
+    display: flex;
+    flex-direction: column;
+    margin-left: clamp(10px, 5vw, 200px);
+}
+.sections-bg{
+    background: rgba(255, 0, 0, 0.257);
+    padding: 40px;
+    border-radius: 90px 50px 90px 50px;
+    position: relative;
+}
+.slideclass{
+    opacity: 0;
+}
+.sections-bg.activeSlide{
+    animation-name: slideUp;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.header-sect2{
+    display: flex;
+    flex-direction: column;
+    margin-left: clamp(100px, 25vw, 500px);
+    width: 900px;
+    overflow: hidden;
+    display: block;
+    height: 360px;
+}
+.mainvid{
+    width: clamp(270px, 30vw, 300px);
+    border-radius: 10%;
+}
+.bt2{
+    border: none;
+    padding: 0;
+}
+@media screen and (max-width:700px) {
+    header{
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .header-sect2{
+        margin-left: clamp(7px, 5vw, 200px);
+        
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .why-jt{
+        flex-direction: row;
+        gap: 20px;
+    }
+    .whole-art{
+        gap: 30px;
+        flex-direction: column;
+        
+    }
+    .whole-art img{
+        width: 80%;
+    }
+    .line{
+        display: none;
+    }
+    .bt2{
+        border-left: solid 2px var(--red);
+        padding-left: 40px;
+    }
+
+}
+@media screen and (max-width:555px) {
+    .why-jt{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .line{
+        width: 100%;
+        height: 2px;
+        display: block;
+    }
+    .bt2{
+        border: none;
+        padding-left: 0;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    header{
+        flex-direction: column-reverse  ;
+        justify-content: center;
+    }
+    .header-sect1 h1{
+        z-index: 2;
+        bottom: 140px;
+    }
+    .mainvid{
+        margin-top: 200px;
+    }
+}
