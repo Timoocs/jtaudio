@@ -61,6 +61,12 @@
         if($page_name == 'kontakt'){
             echo ('<link rel="stylesheet" href="subcss/kontakt.css"');
         }
+        if($page_name == 'nasesluzby'){
+            echo ('<link rel="stylesheet" href="subcss/sluzby.css"');
+        }
+        if($page_name == 'galeria'){
+            echo ('<link rel="stylesheet" href="subcss/galeria.css"');
+        }
     
     ?>
 
@@ -122,6 +128,7 @@
  
 
 <script src="./js/hamburger.js"></script>
+<script src="./js/slide.js"></script>
 <script src="./js/nav.js"></script>
 <script src="./js/slideview.js"></script>
 

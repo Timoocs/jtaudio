@@ -139,14 +139,35 @@ h2{
     padding: 40px;
     position: relative;
     border-radius: 0 50px 50px 50px;
+    box-shadow: 7px 7px 5px rgb(0, 0, 0);
 }
 .slideclass{
     opacity: 0;
 }
-.sections-bg.activeSlide{
+.activeSlide{
     animation-name: slideUp;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+}
+.contactarticle{
+    margin-top: clamp(100px, 20vh, 300px);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: rgba(255, 0, 0, 0.31);
+    border-radius: 0 50px 50px 50px;
+    box-shadow: 7px 7px 5px rgb(0, 0, 0);
+}
+.contactbutton{
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .header-sect2{
@@ -228,5 +249,11 @@ h2{
     }
     .sections-bg{
         padding: 20px;
+    }
+}
+@media screen and (max-width:900px) {
+    .contactarticle{
+        flex-direction: column;
+        gap: 50px;
     }
 }

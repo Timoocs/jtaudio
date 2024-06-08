@@ -83,6 +83,16 @@
                     
 
                 </article>
+                <article class="contactarticle slideclass">
+                    <h2>
+                        Kontaktujte nás ešte dnes
+                    </h2>
+                    <a href="./kontakt.php">
+                    <div class="contactbutton">
+                        Kontaktujte nás <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACXklEQVR4nO2au2oVURSGp9JYKIloYqelRVLF0lIUQdEy0WeQSN7CJIWiILY+gsZL3iCItTm5VF4Qg7E2ieQLPyxxkJ3JzL7NJuSDA+ecOWdmPvaaPWutPVV1zBEFGAHuAvPAG2AA/AK27aX3K7ZNv7kDDFclAJwE7gNLwB+6o/+8A+5pX1UPAqeAWeAb8fgKPASGckncBDZIxzpwI3UYPSEfLzXysSXGgI/k5wMwGkvikg13X6zpHEIlzts02jcbwAVfiaGewqkpzLpP0cBzyuOpzxRbKte7TLOrlMt6q5um3bFLZ6bNaChVKJ0vjRe+JYChKCxHWsXxv+Ne9TjOdNMOl/oQsWN35W1TPeGTivvwAxgPFNkFzrhEVBRllajLeO7rtktkgcwS+hwoMucSUQmakk1gwo51GfiuLwNFXrlElGVmG4m/GwJFBi6RLTKORCSRTZeIOh1ZJSKI/M4hcqhEKpEtMkukCq1VEl/YCURWXCKLZJYwlFGcjTn9zpNfAosE36n/UewUpfU1EZlbLpFhz6TRdyRC2XEmjXYi7z12ONmDhFh0StjJqCveFRVFVzJLiKmjUuqeOFDEZNTaL50HjRK1USmhTXoQa607jlqfoEz2gGutJGoyzyiPx50kaiGmxnEpLB96gTfInCtoWWHMS+K/hZ6UZXCbXOxikERNZrSnMFvWYlMUCcdiqGaOHLxIuvau9YnEoTboPMUGjs6MpQqx+Kw7dl9PQEho2pp76sV2Zdcq0ynvqTU2qg3Ui1UbE3htD9D8rD1Uo/efVJ6qslNRBJyOfiLHVGWwDy2hvTaOp1y1AAAAAElFTkSuQmCC">
+                    </div>
+                    </a>
+                </article>
         </section>
    </main>
   
