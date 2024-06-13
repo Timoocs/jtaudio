@@ -31,7 +31,10 @@
        </div>
        </article>
     </section>
-    <div class="who-created">
-        Copyright © 2024 - JT Audio
+    <div class="copy">
+        Copyright © 2024 - JT Audio<br>
+    </div>
+    <div class="whocreated">
+        WEBSITE <span>created</span> by <a href="https://www.instagram.com/timoo.irl/">Timotej Trník</a>
     </div>
 </footer>

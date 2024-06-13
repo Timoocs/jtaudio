@@ -60,7 +60,10 @@ article{
     box-shadow: 7px 7px 5px rgb(0, 0, 0);
     position: relative;
 }
-
+.articleofcontact:hover{
+    background: rgba(255, 0, 0, 0.599);
+    transition: 0.25s;
+}
 
 .showIn:nth-child(1){
     animation-name: showIn;
